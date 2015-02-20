@@ -1,0 +1,6 @@
+box: shogito/docker-ansible
+build:
+    steps:
+        - script:
+            name: box test
+            code: ansible --version
